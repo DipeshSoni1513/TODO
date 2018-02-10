@@ -26,6 +26,8 @@ export class PageComponent {
 
   Himanshu:string = "Cool Dude";
 
+  Apurv:string = "Learner";
+
   handleTodoAddedEvent(todo){
     this.todoListService.addTodo(todo);
   }
