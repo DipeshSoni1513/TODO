@@ -22,6 +22,8 @@ export class PageComponent {
 
   todoCount:number = this.todoList.length;
 
+  Dipesh:string = "Lucky";
+
   handleTodoAddedEvent(todo){
     this.todoListService.addTodo(todo);
   }
