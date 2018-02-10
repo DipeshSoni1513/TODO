@@ -24,6 +24,8 @@ export class PageComponent {
 
   Dipesh:string = "Lucky";
 
+  Himanshu:string = "Cool Dude";
+
   handleTodoAddedEvent(todo){
     this.todoListService.addTodo(todo);
   }
