@@ -32,6 +32,8 @@ export class ListComponent implements OnInit {
     item.status = !item.status;
   }
 
+  Name:String = "Surekha";
+
   constructor() { }
 
   ngOnInit() {
